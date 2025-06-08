@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prakiraan Cuaca</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Prakiraan Cuaca (BMKG)</h1>
+      <button id="loadBtn">Muat Cuaca</button>
+      <div id="lokasiCard" class="card hidden">
+        <p><strong>Provinsi:</strong> <span id="provinsi"></span></p>
+        <p><strong>Kab/Kota:</strong> <span id="kotkab"></span></p>
+        <p><strong>Kecamatan:</strong> <span id="kecamatan"></span></p>
+        <p><strong>Desa:</strong> <span id="desa"></span></p>
+      </div>
+      <div id="cuacaContainer" class="cuaca-container hidden">
+        <h2>Prakiraan Cuaca</h2>
+        <div id="cuacaList"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
