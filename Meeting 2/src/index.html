@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black min-h-screen flex justify-center items-center">
+    <div
+      class="flex flex-col justify-center bg-gray-800 w-fit h-fit py-4 px-7 rounded-2xl"
+    >
+      <p class="font-bold text-2xl pb-2.5 text-gray-300">
+        Cuaca di Kota Denpasar
+      </p>
+
+      <hr class="border-gray-400 dark:border-gray-300 border-t-2 mb-5 mt-1" />
+
+      <ul class="text-gray-300">
+        <li class="flex gap-3">
+          <p>Deskripsi Cuaca:</p>
+          <span id="deskripsi"></span>
+        </li>
+
+        <li class="flex gap-7">
+          <p>Waktu Lokasi:</p>
+          <span id="waktu"></span>
+        </li>
+        <li class="flex gap-8">
+          <p>Kelembaban:</p>
+          <span id="humidity"></span>
+        </li>
+        <li class="flex gap-21">
+          <p>Suhu:</p>
+          <span id="temp"></span>
+        </li>
+      </ul>
+
+      <button
+        id="loadBtn"
+        class="bg-green-800 mt-4 rounded-[5px] text-gray-100 font-semibold"
+      >
+        Fetch
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
