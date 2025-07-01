@@ -2,6 +2,7 @@
 
 body {
   font-family: "Epilogue", sans-serif;
+  width: fit-content;
 }
 
 .card-rounded::before {
